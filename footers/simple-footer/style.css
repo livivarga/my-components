@@ -1,0 +1,45 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* ==== SIMPLE FOOTER ==== */
+
+footer {
+  background: url(./simple-footer.png) repeat center;
+  height: 16rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer small {
+  color: #ccc;
+  letter-spacing: 0.025rem;
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #c74f78;
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.footer-nav a:hover {
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
